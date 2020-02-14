@@ -80,8 +80,8 @@ def movies_with_directors_set(source)
   array = []
   i = 0 
   while i < source.length do 
-    binding.pry 
     array << movies_with_director_key(name, movies_collection)[:director_name]
+    binding.pry 
     i += 1 
   end
   array 
