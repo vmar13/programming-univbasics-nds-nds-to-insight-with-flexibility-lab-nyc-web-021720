@@ -37,10 +37,12 @@ def movies_with_director_key(name, movies_collection)
   array = []
   i = 0 
   while i < movies_collection.length do
-    
+    movie_data = movies_collection[i]
+    array << movie_with_director_name(name, movie_data)
+    i += 1 
   # movies_collection.push(name[:director_name])
   
-
+end 
   
   
   # director_list.push(source[director_index][:name])
