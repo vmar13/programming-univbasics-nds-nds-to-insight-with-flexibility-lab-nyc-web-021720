@@ -80,8 +80,7 @@ def movies_with_directors_set(source)
   array = []
   i = 0 
   while i < source.length do 
-    movies_with_director_key[:director_name]
-    array << 
+    array << movies_with_director_key[:director_name]
     i += 1 
   end
   array 
