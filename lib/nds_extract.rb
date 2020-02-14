@@ -81,7 +81,7 @@ def movies_with_directors_set(source)
   array = []
   i = 0 
   while i < source.length do 
-    array << movies_with_director_key(name, movies_collection)[:director_name]
+    array << m(name, movies_collection)movies_with_director_key[:director_name]
 binding.pry 
     i += 1 
   end
