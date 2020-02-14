@@ -34,7 +34,12 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-  movies_collection[:director_name]
+  array = []
+  movies_collection.push(name[:director_name])
+  
+  
+  
+  # director_list.push(source[director_index][:name])
   
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
