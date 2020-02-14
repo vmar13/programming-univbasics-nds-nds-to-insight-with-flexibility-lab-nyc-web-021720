@@ -35,8 +35,10 @@ end
 
 def movies_with_director_key(name, movies_collection)
   array = []
-  binding.pry 
-  movies_collection.push(name[:director_name])
+  i = 0 
+  while i < movies_collection.length do
+    
+  # movies_collection.push(name[:director_name])
   
 
   
