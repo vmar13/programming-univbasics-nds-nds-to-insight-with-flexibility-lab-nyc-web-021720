@@ -37,6 +37,16 @@ def movies_with_director_key(name, movies_collection)
   array = []
   movies_collection.push(name[:director_name])
   
+#   def directors_totals(source)
+#   result = {}
+#   director_index = 0
+#   while director_index < source.size do
+#     director = source[director_index]
+#     result[director[:name]] = gross_for_director(director)
+#     director_index += 1
+#   end
+#   result
+# end
   
   
   # director_list.push(source[director_index][:name])
