@@ -42,9 +42,9 @@ def movies_with_director_key(name, movies_collection)
     array << movie_with_director_name(name, movie_data)
     i += 1 
   # movies_collection.push(name[:director_name])
-  
 end 
-  
+  array 
+end 
   
   # director_list.push(source[director_index][:name])
   
@@ -62,7 +62,7 @@ end
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
-end
+
 
 
 def gross_per_studio(collection)
